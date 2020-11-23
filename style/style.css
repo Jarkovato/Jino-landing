@@ -294,7 +294,7 @@ body {
 }
 
 .features {
-  background-image: url(img/background2.jpg);
+  background-image: url(../img/background2.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
