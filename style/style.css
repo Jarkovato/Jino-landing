@@ -41,7 +41,7 @@ body {
 }
 
 .main {
-  background: url(img/background1.jpg) center center no-repeat;
+  background: url(../img/background1.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -166,7 +166,7 @@ body {
 .arrow:after {
   content: '';
   position: absolute;
-  background-image: url(img/down@2x.png);
+  background-image: url(../img/down@2x.png);
   background-size: contain;
   background-position: center;
   width: 2.7rem;
