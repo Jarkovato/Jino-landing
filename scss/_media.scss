@@ -1,0 +1,66 @@
+@media (max-width: 850px) {
+  html {
+    font-size: 7px;
+  }
+  .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 550px) {
+  .main {
+    &__desc {
+      position: absolute;
+      right: 1rem;
+    }
+    &__title {
+      font-size: 7rem;
+    }
+  }
+  .form {
+    max-width: 90%;
+  }
+  .nav {
+    right: 2rem;
+  }
+  .services{
+    &__item {
+      flex-basis: 50%;
+    }
+  }
+  .features {
+    &__text {
+      font-size: 3rem;
+    }
+    &__bonus {
+      padding: 2rem 2rem;
+    }
+    &__bonus-number {
+      font-size: 3rem;
+    }
+    &__bonus-img {
+      width: 2rem;
+    }
+  }
+  .form {
+    &__desc {
+      height: 6rem;
+      text-align: center;
+    }
+    &__search-result {
+      display: block;
+    }
+  }
+  
+}
+@media (max-width: 340px) {
+  .form {
+    &__desc {
+      height: 6rem;
+      text-align: center;
+    }
+    &__search-result {
+      display: block;
+    }
+  }
+}
